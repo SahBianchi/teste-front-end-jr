@@ -1,0 +1,29 @@
+.containerMain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerSearch{
+    width: 1280px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.containerCategories{
+    width: 1280px;
+    display: flex;
+}
+
+.listCategories{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}

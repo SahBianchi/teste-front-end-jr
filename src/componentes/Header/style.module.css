@@ -1,0 +1,25 @@
+.containerHeader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerTop{
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.containerTopics{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgIcons{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
