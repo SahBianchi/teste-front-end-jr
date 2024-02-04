@@ -10,17 +10,17 @@ export default function Header(){
             <div className={styles.containerTop}>
                 <div className={styles.containerTopics}>
                         <img src={IconShield} className={styles.imgIcons}/>
-                        <p>Compra 100% segura</p>
+                        <p>Compra <span className={styles.emphasis}>100% segura</span></p>
                 </div>
 
                 <div className={styles.containerTopics}>
                         <img src={IconTruck} className={styles.imgIcons}/>
-                        <p>Frete grátis acima de R$ 200</p>
+                        <p><span className={styles.emphasis}>Frete grátis</span> acima de R$ 200</p>
                 </div>
 
                 <div className={styles.containerTopics}>
                         <img src={IconCard} className={styles.imgIcons}/>
-                        <p>Parcele suas compras</p>
+                        <p><span className={styles.emphasis}>Parcele</span> suas compras</p>
                 </div>
             </div>
         </div>

@@ -14,8 +14,8 @@ export default function NavBar(){
         <div className={styles.containerMain}>
             <nav className={styles.containerSearch}>
                  <img src={LogoNav}/>
-                 <div>
-                    <input type="text" placeholder="O que você está buscando?"/>
+                 <div className={styles.boxSearch}>
+                    <input type="text" placeholder="O que você está buscando?" className={styles.inputSearch}/>
                     <img src={IconLupa}/>
                  </div>
                  <img src={IconBox}/>
@@ -23,18 +23,16 @@ export default function NavBar(){
                  <img src={IconUser}/>
                  <img src={IconCart}/>
             </nav>
-            
-            <hr/>
 
             <nav className={styles.containerCategories}>
                 <ul className={styles.listCategories}>
-                    <li><a href="">Todas Categorias</a></li>
-                    <li><a href="">Supermercado</a></li>
-                    <li><a href="">Livros</a></li>
-                    <li><a href="">Moda</a></li>
-                    <li><a href="">Lançamentos</a></li>
-                    <li><a href="">Ofertas do dia</a></li>
-                    <li><a href=""><img src={InconCrown}/>Assinatura</a></li>
+                    <li><a href="" className={styles.aCategories}>Todas Categorias</a></li>
+                    <li><a href="" className={styles.aCategories}>Supermercado</a></li>
+                    <li><a href="" className={styles.aCategories}>Livros</a></li>
+                    <li><a href="" className={styles.aCategories}>Moda</a></li>
+                    <li><a href="" className={styles.aCategories}>Lançamentos</a></li>
+                    <li><a href="" className={`${styles.aCategories} ${styles.pink}`}>Ofertas do dia</a></li>
+                    <li><a href="" className={`${styles.aSignature} ${styles.aCategories}`}><img src={InconCrown} className={styles.iconCrown}/>Assinatura</a></li>
                 </ul>
             </nav>
         </div>

@@ -15,6 +15,26 @@
     border-bottom: 1px solid #F0F0F0;
 }
 
+.inputSearch{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.boxSearch{
+    width: 657px;
+    border-radius: 10px;
+    background-color: #F6F5F2;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 100px;
+}
+
 .containerCategories{
     width: 1280px;
     display: flex;
@@ -26,4 +46,26 @@
     list-style: none;
     justify-content: space-around;
     align-items: center;
+    text-transform: uppercase;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 600;
+    color: #9F9F9F;
+}
+.aCategories{
+    text-decoration: none;
+    color: #9F9F9F;
+}
+
+.aSignature{
+    display: flex;
+    align-items: center;
+}
+
+.iconCrown{
+    padding: 5px;
+}
+
+.pink{
+    color: var(--pinkPrimary);
 }

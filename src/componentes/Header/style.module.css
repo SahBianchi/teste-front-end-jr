@@ -16,6 +16,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'poppins';
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--gray1);
+}
+
+.emphasis{
+    color: var(--pinkPrimary);
 }
 
 .imgIcons{
