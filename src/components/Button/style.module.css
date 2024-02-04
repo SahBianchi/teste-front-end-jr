@@ -1,4 +1,4 @@
-.btBuy.btCheckOut.btOk{
+.btBuy, .btCheckOut, .btOk{
     font-family: 'poppins';
     color: white;
     border: none;
@@ -16,7 +16,7 @@
     border-radius: 5px;
     width: 227px;
     height: 60px;
-    margin: 0 auto;
+    margin: 20px 80px;
     background-color: var(--pinkPrimary);
 }
 

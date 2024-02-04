@@ -4,9 +4,9 @@ import IconShield from "../../pictures/ShieldCheck.png";
 import IconTruck from "../../pictures/Truck.png";
 import IconCard from "../../pictures/CreditCard.png";
 
-export default function Header(){
+export default function Top(){
     return(
-        <div className={styles.containerHeader}>
+        <div className={styles.container}>
             <div className={styles.containerTop}>
                 <div className={styles.containerTopics}>
                         <img src={IconShield} className={styles.imgIcons}/>

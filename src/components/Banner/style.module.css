@@ -1,0 +1,31 @@
+.container{
+    width: 100vw;
+    height: 395px;
+    margin-top: 5px;
+    background-image: url('../../pictures/Banner.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.containerBanner{
+    width: 100%;
+    margin: 0 80px;   
+}
+
+.title, .subtitle{
+    font-family: 'Poppins';
+    color: white;
+}
+
+.title{
+    padding: 40px 80px 0;
+    width: 800px;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.subtitle{
+    font-size: 36px;
+    font-weight: 600;
+    padding: 0 80px;
+}
