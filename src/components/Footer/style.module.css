@@ -1,0 +1,40 @@
+.containerFooter{
+    width: 100vw;
+    background-color: #2A2A2A;
+    display: flex;
+}
+
+.containerAbout, .containerInformation, .containerPayment, .containeCopy{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerForm{
+    width: 380px;
+    height: 260px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .containerLogos{
+    display: flex;
+    flex-direction: column;
+} */
+
+.titleFooter{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.listFooter{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+}
+
