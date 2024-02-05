@@ -23,67 +23,73 @@ import LogoEconverse from "../../pictures/LogoEconverse.png"
 export default function Footer(){
     return(
         <div className={styles.containerFooter}>
-            <div className={styles.containerAbout}>
-                <h6 className={styles.titleFooter}>Sobre nós</h6>
-                <div>
-                    <ul className={styles.listFooter}>
-                        <li><a href="#">Conheça</a></li>
-                        <li><a href="#">Como Comprar</a></li>
-                        <li><a href="#">Indicação e Desconto</a></li>
-                    </ul>
+            <div className={styles.containerNavFooter}>
+                <div className={styles.containerAbout}>
+                    <h6 className={styles.titleFooter}>Sobre nós</h6>
+                    <div>
+                        <ul className={styles.listFooter}>
+                            <li><a href="#" className={styles.aFooter}>Conheça</a></li>
+                            <li><a href="#" className={styles.aFooter}>Como Comprar</a></li>
+                            <li><a href="#" className={styles.aFooter}>Indicação e Desconto</a></li>
+                        </ul>
+                    </div>
+
+                    <div className={styles.iconsSocial}>
+                        <img src={IconFacebook}/>
+                        <img src={IconInstagram}/>
+                        <img src={IconYouTube}/>
+                    </div>
+                </div>  
+
+                <div className={styles.containerInformation}>
+                    <h6 className={styles.titleFooter}>INFORMAÇÕES ÚTEIS</h6>
+                    <div>
+                        <ul className={styles.listFooter}>
+                            <li><a href="#" className={styles.aFooter}>FALE CONOSCO</a></li>
+                            <li><a href="#" className={styles.aFooter}>DÚVIDAS</a></li>
+                            <li><a href="#" className={styles.aFooter}>Prazos de Entrega</a></li>
+                            <li><a href="#" className={styles.aFooter}>Formas de Pagamento</a></li>
+                            <li><a href="#" className={styles.aFooter}>Política de privacidade</a></li>
+                            <li><a href="#" className={styles.aFooter}>Trocas e Devoluções</a></li>
+                        </ul>
+                    </div>
+                </div>  
+
+                <div className={styles.containerPayment}>
+                    <h6 className={styles.titleFooter}>FORMAS DE PAGAMENTO</h6>
+                    <div>
+                        <img src={LogoVisa}/>
+                        <img src={LogoAlelo}/>
+                        <img src={LogoDiners}/>
+                        <img src={LogoIfood}/>
+                        <img src={LogoMastercard}/>
+                        <img src={LogoPix}/>
+                        <img src={LogoAmex}/>
+                        <img src={LogoTicket}/>
+                        <img src={LogoSodexo}/>
+                    </div>
                 </div>
 
-                <div>
-                    <img src={IconFacebook}/>
-                    <img src={IconInstagram}/>
-                    <img src={IconYouTube}/>
-                </div>
-            </div>  
-
-            <div className={styles.containerInformation}>
-                <h6 className={styles.titleFooter}>INFORMAÇÕES ÚTEIS</h6>
-                <div>
-                    <ul className={styles.listFooter}>
-                        <li><a href="#">FALE CONOSCO</a></li>
-                        <li><a href="#">DÚVIDAS</a></li>
-                        <li><a href="#">Prazos de Entrega</a></li>
-                        <li><a href="#">Formas de Pagamento</a></li>
-                        <li><a href="#">Política de privacidade</a></li>
-                        <li><a href="#">Trocas e Devoluções</a></li>
-                    </ul>
-                </div>
-            </div>  
-
-            <div className={styles.containerPayment}>
-                <h6 className={styles.titleFooter}>FORMAS DE PAGAMENTO</h6>
-                <div>
-                    <img src={LogoVisa}/>
-                    <img src={LogoElo}/>
-                    <img src={LogoAlelo}/>
-                    <img src={LogoDiners}/>
-                    <img src={LogoIfood}/>
-                    <img src={LogoMastercard}/>
-                    <img src={LogoPix}/>
-                    <img src={LogoAmex}/>
-                    <img src={LogoTicket}/>
-                    <img src={LogoSodexo}/>
+                <div className={styles.containerForm}>
+                    <div className={styles.containerTextForm}>
+                        <h6>Cadastre-se e Receba nossas</h6>
+                        <h5>novidades e promoções</h5>
+                        <p>Excepteur sint occaecat cudatat non ent, sunt in culpa qui officia lorem ipsum</p>
+                    </div>
+                    
+                    <div className={styles.containerInput}>
+                        <input type="text" placeholder="Seu e-mail" className={styles.inputSearch}/>
+                        <Button type="btOk" onClick={()=>{
+                        console.log("fui clicado")
+                        }}>OK</Button>
+                    </div>
                 </div>
             </div>
-
-            <div className={styles.containerForm}>
-                <h6>Cadastre-se e Receba nossas</h6>
-                <h5>novidades e promoções</h5>
-                <p>Excepteur sint occaecat cudatat non ent, sunt in culpa qui officia lorem ipsum</p>
-                <div>
-                    <input type="text" placeholder="Seu e-mail" className={styles.inputSearch}/>
-                    <Button type="btOk" onClick={()=>{
-                    console.log("fui clicado")
-                    }}>OK</Button>
-                </div>
-            </div>
+            
+            <hr/>
 
             <div className={styles.containeCopy}>
-                <div>
+                <div className={styles.textCopy}>
                     <p>
                         Copyright © 2019. Todos os direitos reservados. Todas as marcas e suas imagens são de propriedade de seus respectivos donos.
                     </p>
@@ -93,7 +99,7 @@ export default function Footer(){
                     </p>
                 </div>
 
-                <div>
+                <div className={styles.logosCopy}>
                     <img src={LogoVtexFooter}/>
                     <img src={LogoEconverse}/>
                 </div>

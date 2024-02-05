@@ -2,12 +2,74 @@
     width: 100vw;
     background-color: #2A2A2A;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.containerNavFooter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 90px;
 }
 
 .containerAbout, .containerInformation, .containerPayment, .containeCopy{
-    width: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.containerAbout{
+    width: 149px;
+}
+
+.containerInformation{
+    width: 150px;
+}
+
+.containerPayment{
+    width: 195px;
+}
+
+.containeCopy{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    justify-content: inherit;
+    padding: 20px 90px 30px 90px;
+}
+
+.containerPayment img{
+    padding: 5px;
+}
+
+.titleFooter{
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.listFooter{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.aFooter{
+    color: white;
+    line-height: 3;
+}
+
+.iconsSocial{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .containerForm{
@@ -17,24 +79,55 @@
     background-color: white;
     display: flex;
     flex-direction: column;
+    margin-left: 200px;
 }
 
-/* .containerLogos{
+.containerTextForm{
+    width: 100%;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-} */
-
-.titleFooter{
-    font-family: 'Poppins';
-    color: white;
-    font-size: 13px;
-    font-weight: 700;
+    align-items: center;
+    padding: 30px 20px 20px;
 }
 
-.listFooter{
-    font-family: 'Poppins';
-    color: white;
+.containerTextForm h6{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.containerTextForm h5{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.containerForm p{
+    width: 310px;
+    text-align: center;
     font-size: 12px;
     font-weight: 300;
+    line-height: 19px;
+    margin-top: 15px;
 }
 
+.containerInput{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerInput input{
+    width: 230px;
+    height: 45px;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.logosCopy{
+    width: 226px;
+    display: flex;
+    justify-content: inherit;
+}
