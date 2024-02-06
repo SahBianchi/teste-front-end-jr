@@ -1,0 +1,35 @@
+.containerPartners{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerPartner{
+    display: flex;
+    width: 574px;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url('../../pictures/Group2404.png');
+    align-items: flex-end;
+}
+
+.containerTxt{
+    width: 250px;
+    color: white;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.containerTxt h3{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.containerTxt p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px 0 30px 0;
+}

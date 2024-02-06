@@ -1,0 +1,43 @@
+.containerBrands{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerBrands h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--pinkPrimary);
+    margin-top: 80px;
+
+}
+
+.containerCircleBrand{
+    width: 1250px;
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+.circleBrand{
+    background-color: white;
+    border-radius: 50%;
+    width: 211px;
+    height: 211px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.13);
+}
+
+.diferente{
+    background-color: aqua;
+    border-radius: 50%;
+    width: 211px;
+    height: 211px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.13);
+}

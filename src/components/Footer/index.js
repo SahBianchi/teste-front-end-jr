@@ -59,6 +59,7 @@ export default function Footer(){
                     <h6 className={styles.titleFooter}>FORMAS DE PAGAMENTO</h6>
                     <div>
                         <img src={LogoVisa}/>
+                        <img src={LogoElo}/>
                         <img src={LogoAlelo}/>
                         <img src={LogoDiners}/>
                         <img src={LogoIfood}/>
