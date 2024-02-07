@@ -19,6 +19,7 @@
     flex-direction: row;
     margin: 80px 0;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .containerCardProducts{
@@ -28,6 +29,7 @@
     border-radius: 10px;
     background-image: url('../../pictures/Group2404.png');
     align-items: flex-end;
+    margin: 10px;
 }
 
 .containerTxtProducts{
