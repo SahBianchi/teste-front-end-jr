@@ -6,7 +6,7 @@ export default function CardsProducts(){
     return(
         <div className={styles.containerCardsProducts}>
 
-            <div className={styles.contentTest}>
+            <div className={styles.contentTitleCardsProducts}>
                 <hr />
                     <h2>Produtos relacionados</h2>
                 <hr />
