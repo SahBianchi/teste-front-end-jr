@@ -1,0 +1,22 @@
+.containerCarouselProducts,
+.containerCarouselBrands{
+    overflow: hidden;
+    position: relative;
+    margin: 40px 0;
+  }
+
+.containerCarouselProducts{
+  width: 1270px;
+  height: 700px;
+  padding: 10px 0;
+}
+
+.containerCarouselBrands{
+  width: 1250px;
+  height: 234px;
+}
+
+.carousel {
+    width: fit-content;
+    display: flex;
+}

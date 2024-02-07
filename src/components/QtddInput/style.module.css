@@ -1,0 +1,21 @@
+.divInputModal{
+    width: 110px;
+    height: 36px;
+    border: 1px solid #041E50;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divInputModal button{
+    background: transparent;
+    border: none;
+    padding: 0 10px;
+}
+
+.divInputModal input{
+    width: 50%;
+    border: none;
+    text-align: center;
+}

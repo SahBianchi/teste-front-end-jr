@@ -26,6 +26,7 @@
     border-radius: 4px;
     width: 245px;
     height: 44px;
+    margin: 10px 0;
 }
 
 .btCheckOut{
@@ -43,4 +44,27 @@
     width: 62px;
     height: 45px;
     margin: 10px;
+}
+
+.buttonCarroselPrev,
+.buttonCarroselNext{
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px 0px #0000002E;
+}
+
+.buttonCarroselPrev{
+    left: 0;
+}
+
+.buttonCarroselNext{
+    right: 0;
 }

@@ -13,16 +13,17 @@ export default function RelatedProducts(){
 
             <div className={styles.containerSubProducts}>
                 <table className={styles.listSubProducts}>
-                    <tr>
-                        <td className={styles.listSubProductsActive}>celular</td>
-                        <td>acessórios</td>
-                        <td>tablets</td>
-                        <td>NOTEBOOKS</td>
-                        <td>TVs</td>
-                        <td>Ver todos</td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td className={styles.listSubProductsActive}>celular</td>
+                            <td>acessórios</td>
+                            <td>tablets</td>
+                            <td>NOTEBOOKS</td>
+                            <td>TVs</td>
+                            <td>Ver todos</td>
+                        </tr>
+                    </tbody>
                 </table>
-
             </div>
 
         </div>
