@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./style.module.css"
-import Button from "../Button"
+import styles from "./style.module.css";
+import Button from "../Button";
 
 export default function Banner(){
     return(
@@ -9,7 +9,7 @@ export default function Banner(){
                 <p className={styles.title}>Venha conhecer nossas promoções</p>
                 <p className={styles.subtitle}>50% Off nos produtos</p>
                 <Button type="btProduct" onClick={()=>{
-                    console.log("fui clicado")
+                    console.log("fui clicado");
                 }}>Ver produto</Button>
             </div>
         </div>

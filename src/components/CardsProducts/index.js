@@ -5,7 +5,6 @@ import Button from "../Button";
 export default function CardsProducts(){
     return(
         <div className={styles.containerCardsProducts}>
-
             <div className={styles.contentTitleCardsProducts}>
                 <hr />
                     <h2>Produtos relacionados</h2>

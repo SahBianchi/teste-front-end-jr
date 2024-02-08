@@ -7,9 +7,15 @@ import Modal from "../Modal";
 export default function Products() {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [productData, setProductData] = useState([]);
+    const [selectedProduct, setSelectedProduct] = useState(null);
 
-    const openModal = () => {
+    const openModal = (product) => {
+        setSelectedProduct(product);
         setIsModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setIsModalOpen(false);
     };
 
     useEffect(() => {
@@ -36,15 +42,19 @@ export default function Products() {
                         <img src={product.photo} alt={product.descriptionShort} />
                         <div className={styles.containerInfoProd}>
                             <p className={styles.descriptionInfoProd}>{product.descriptionShort}</p>
-                            <p className={styles.previousPrice}>R$ {product.price}</p>
+                            <p className={styles.previousPrice}>R$ 30,90</p>
+                            <p className={styles.currentP1rice}>R$ {product.price}</p>
                             <p className={styles.infoParcel}>ou 2x de R$ {(product.price / 2).toFixed(2)} sem juros</p>
                             <p className={styles.infoShipping}>Frete grátis</p>
                         </div>
-                        <Button type="btProduct" onClick={openModal}>Comprar</Button>
+                        <Button type="btProduct" onClick={() => openModal(product)}>Comprar</Button>
                     </div>
                 ))}
             </Carousel>
-            {isModalOpen && <Modal onClose={() => setIsModalOpen(false)} />}
+            {isModalOpen && selectedProduct && (
+                <Modal onClose={closeModal} product={selectedProduct} />
+            )}
         </div>
     );
 }
+

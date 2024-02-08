@@ -13,15 +13,15 @@ export default function NavBar(){
     return(
         <div className={styles.containerMain}>
             <nav className={styles.containerSearch}>
-                 <img src={LogoNav}/>
+                 <img src={LogoNav} alt="logo vtex"/>
                  <div className={styles.boxSearch}>
                     <input type="text" placeholder="O que você está buscando?" className={styles.inputSearch}/>
-                    <img src={IconLupa}/>
+                    <img src={IconLupa} alt="icone lupa"/>
                  </div>
-                 <img src={IconBox}/>
-                 <img src={IconHeart}/>
-                 <img src={IconUser}/>
-                 <img src={IconCart}/>
+                 <a href=""><img src={IconBox} alt="icone box"/></a>
+                 <a href=""><img src={IconHeart} alt="icone coração"/></a>
+                 <a href=""><img src={IconUser} alt="icone usuário"/></a>
+                 <a href=""><img src={IconCart} alt="icone carrinho"/></a>
             </nav>
 
             <nav className={styles.containerCategories}>

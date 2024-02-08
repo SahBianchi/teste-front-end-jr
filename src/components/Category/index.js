@@ -17,49 +17,49 @@ export default function Category(){
             <div className={styles.btCategory}>
                 <ButtonCategory type="selected" onClick={()=>{
                     console.log("fui clicado")
-                }}><img src={Tech}/></ButtonCategory>
+                }}><img src={Tech} alt="icone de um computador"/></ButtonCategory>
                 <p className={styles.nameCatSelect}>Tecnologia</p>
             </div>
 
             <div className={styles.btCategory}>
                 <ButtonCategory type="notSelected" onClick={()=>{
                     console.log("fui clicado")
-                }}><img src={Supermarket}/></ButtonCategory>
+                }}><img src={Supermarket} alt="icone de um supermercado"/></ButtonCategory>
                 <p className={styles.nameCatNoSelect}>Supermercado</p>
             </div>
 
             <div className={styles.btCategory}>
                 <ButtonCategory type="notSelected" onClick={()=>{
                     console.log("fui clicado")
-                }}><img src={Drinks}/></ButtonCategory>
+                }}><img src={Drinks} alt="icone de garrafa de bebida"/></ButtonCategory>
                 <p className={styles.nameCatNoSelect}>Bebidas</p>
             </div>
 
             <div className={styles.btCategory}>
                 <ButtonCategory type="notSelected" onClick={()=>{
                     console.log("fui clicado")
-                }}><img src={Tools}/></ButtonCategory>
+                }}><img src={Tools} alt="icone de ferramentas"/></ButtonCategory>
                 <p className={styles.nameCatNoSelect}>Ferramentas</p>
             </div>
 
             <div className={styles.btCategory}>
                 <ButtonCategory type="notSelected" onClick={()=>{
                     console.log("fui clicado")
-                }}><img src={Health}/></ButtonCategory>
+                }}><img src={Health} alt="icone de uma mao e um coração"/></ButtonCategory>
                 <p className={styles.nameCatNoSelect}>Saúde</p>
             </div>
 
             <div className={styles.btCategory}>
                 <ButtonCategory type="notSelected" onClick={()=>{
                     console.log("fui clicado")
-                }}><img src={Fitness}/></ButtonCategory>
+                }}><img src={Fitness} alt="icone de uma pessoa correndo na esteira"/></ButtonCategory>
                 <p className={styles.nameCatNoSelect}>Esportes e Fitness</p>
             </div>
 
             <div className={styles.btCategory}>
                 <ButtonCategory type="notSelected" onClick={()=>{
                     console.log("fui clicado")
-                }}><img src={Fashion}/></ButtonCategory>
+                }}><img src={Fashion} alt="icone de um vestido, salto e diamante"/></ButtonCategory>
                 <p className={styles.nameCatNoSelect}>Moda</p>
             </div>
         </div>

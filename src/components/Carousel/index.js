@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import styles from "./style.module.css";
 import Button from "../Button";
 
-import ArrayNext from "../../pictures/ArrayNext.png"
-import ArrayPrev from "../../pictures/ArrayPrev.png"
+import ArrayNext from "../../pictures/ArrayNext.png";
+import ArrayPrev from "../../pictures/ArrayPrev.png";
 
 export default function Carousel({type, children}){
   const [containerWidth, setContainerWidth] = useState(0);
@@ -41,7 +41,7 @@ export default function Carousel({type, children}){
                     <img src={ArrayPrev} alt="Seta para voltar"/>
                 </Button>
                 <Button type="buttonCarroselNext" onClick={handleNextClick}>
-                    <img src={ArrayNext} alt="Seta para voltar"/>
+                    <img src={ArrayNext} alt="Seta para avançar"/>
                 </Button>
             </div>
         </>

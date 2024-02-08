@@ -18,7 +18,7 @@ import LogoTicket from "../../pictures/ticket.png";
 import LogoSodexo from "../../pictures/sodexo.png";
 
 import LogoVtexFooter from "../../pictures/LogoVtexFooter.png";
-import LogoEconverse from "../../pictures/LogoEconverse.png"
+import LogoEconverse from "../../pictures/LogoEconverse.png";
 
 export default function Footer(){
     return(
@@ -35,9 +35,9 @@ export default function Footer(){
                     </div>
 
                     <div className={styles.iconsSocial}>
-                        <img src={IconFacebook}/>
-                        <img src={IconInstagram}/>
-                        <img src={IconYouTube}/>
+                        <a href=""><img src={IconFacebook} alt="icone do facebook"/></a>
+                        <a href=""><img src={IconInstagram} alt="icone do instagram"/></a>
+                        <a href=""><img src={IconYouTube} alt="icone youtube"/></a>
                     </div>
                 </div>  
 
@@ -58,16 +58,16 @@ export default function Footer(){
                 <div className={styles.containerPayment}>
                     <h6 className={styles.titleFooter}>FORMAS DE PAGAMENTO</h6>
                     <div>
-                        <img src={LogoVisa}/>
-                        <img src={LogoElo}/>
-                        <img src={LogoAlelo}/>
-                        <img src={LogoDiners}/>
-                        <img src={LogoIfood}/>
-                        <img src={LogoMastercard}/>
-                        <img src={LogoPix}/>
-                        <img src={LogoAmex}/>
-                        <img src={LogoTicket}/>
-                        <img src={LogoSodexo}/>
+                        <img src={LogoVisa} alt="logo visa"/>
+                        <img src={LogoElo} alt="logo elo"/>
+                        <img src={LogoAlelo} alt="logo alelo"/>
+                        <img src={LogoDiners} alt="logo diners"/>
+                        <img src={LogoIfood} alt="logo ifood"/>
+                        <img src={LogoMastercard} alt="logo mastercard"/>
+                        <img src={LogoPix} alt="logo pix"/>
+                        <img src={LogoAmex} alt="logo amex"/>
+                        <img src={LogoTicket} alt="logo ticket"/>
+                        <img src={LogoSodexo} alt="logo sodexo"/>
                     </div>
                 </div>
 
@@ -101,8 +101,8 @@ export default function Footer(){
                 </div>
 
                 <div className={styles.logosCopy}>
-                    <img src={LogoVtexFooter}/>
-                    <img src={LogoEconverse}/>
+                    <img src={LogoVtexFooter} alt="logo vtex"/>
+                    <img src={LogoEconverse} alt="logo econverse"/>
                 </div>
             </div>       
         </div>

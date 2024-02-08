@@ -1,5 +1,5 @@
 import React from "react";
-//import styles from "./style.module.css"
+
 import RelatedProducts from "../RelatedProducts";
 import Partners from "../Partners";
 import Category from "../Category";
