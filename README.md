@@ -29,13 +29,13 @@ Essas instruções permitirão que você consiga ter esse projeto em operação 
 ### 📋 Pré-requisitos para instalação 🔧
 
 * Clone o repositório [teste-front-end-jr](https://github.com/SahBianchi/teste-front-end-jr)
-* Entre na pasta do projeto e instale via terminal utilizando o comando: npm install.
-* Após a instalação ainda no terminal digite o comando: npm start 
+* Entre na pasta do projeto e instale via terminal utilizando o comando: 
+```bash
+npm install
+```
+* Após a instalação ainda no terminal digite o comando:
+```bash
+npm install
+```
 <br>
 <br>
-
-## Agradecimento
-Quero expressar minha sincera gratidão pela oportunidade de participar deste teste. Foi um desafio estimulante e enriquecedor. A estética do layout é excepcional, e fiz o possível para respeitar todos os detalhes com cuidado e atenção.
-<br>
-
-Reconheço que há áreas no código que podem ser aprimoradas e refatoradas, mas dediquei meu melhor esforço dentro do prazo estipulado. Espero que apreciem o resultado final tanto quanto eu apreciei o processo de criação.
