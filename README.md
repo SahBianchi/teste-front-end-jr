@@ -35,7 +35,7 @@ npm install
 ```
 * Após a instalação ainda no terminal digite o comando:
 ```bash
-npm install
+npm start
 ```
 <br>
 <br>
